@@ -1,0 +1,1596 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Sep 21 12:10:36 GMT+08:00 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:10:38 GMT+08:00 2019 sendTemplateSMS url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=273A3EA6E57ABB006B2175D33A376307</td>
+</tr>
+
+<tr>
+<td>37</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:10:38 GMT+08:00 2019 sendTemplateSMS Request body =  {&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}</td>
+</tr>
+
+<tr>
+<td>79</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Get connection for route {s}-&gt;https://app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>118</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator category">ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td title="Message">Connecting to app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>362</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAddCookies category">ytx.org.apache.http.client.protocol.RequestAddCookies</td>
+<td title="Message">CookieSpec selected: best-match</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAuthCache category">ytx.org.apache.http.client.protocol.RequestAuthCache</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestProxyAuthentication category">ytx.org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Sending request: POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=273A3EA6E57ABB006B2175D33A376307 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=273A3EA6E57ABB006B2175D33A376307 HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Accept: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Type: application/json;charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEwMzg=[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Length: 103[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Host: app.cloopen.com:8883[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=273A3EA6E57ABB006B2175D33A376307 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Accept: application/json</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Type: application/json;charset=utf-8</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEwMzg=</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Length: 103</td>
+</tr>
+
+<tr>
+<td>372</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Host: app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>372</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>372</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)</td>
+</tr>
+
+<tr>
+<td>372</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;{&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}&quot;</td>
+</tr>
+
+<tr>
+<td>432</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;HTTP/1.1 200 [\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>434</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Server: nginx/1.14.0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>434</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Date: Sat, 21 Sep 2019 04:10:39 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>434</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Type: application/json;charset=UTF-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Length: 65[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Receiving response: HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Server: nginx/1.14.0</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Date: Sat, 21 Sep 2019 04:10:39 GMT</td>
+</tr>
+
+<tr>
+<td>435</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Type: application/json;charset=UTF-8</td>
+</tr>
+
+<tr>
+<td>436</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Length: 65</td>
+</tr>
+
+<tr>
+<td>436</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>437</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>442</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;{&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;[0xe3][0x80][0x90][0xe8][0xb4][0xa6][0xe5][0x8f][0xb7][0xe3][0x80][0x91][0xe5][0xba][0x94][0xe7][0x94][0xa8][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td>442</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Releasing connection ytx.org.apache.http.impl.conn.ManagedClientConnectionImpl@341b80b2</td>
+</tr>
+
+<tr>
+<td>442</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>443</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Connection 0.0.0.0:10719&lt;-&gt;42.121.254.126:8883 closed</td>
+</tr>
+
+<tr>
+<td>443</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:10:39 GMT+08:00 2019 sendTemplateSMS response body = {&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;【账号】应用不存在&quot;}</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Sep 21 12:12:01 GMT+08:00 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:03 GMT+08:00 2019 sendTemplateSMS url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=5CA6B7288715C4B7B14DE82A6553A27A</td>
+</tr>
+
+<tr>
+<td>43</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:03 GMT+08:00 2019 sendTemplateSMS Request body =  {&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}</td>
+</tr>
+
+<tr>
+<td>77</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Get connection for route {s}-&gt;https://app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>108</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator category">ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td title="Message">Connecting to app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>348</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAddCookies category">ytx.org.apache.http.client.protocol.RequestAddCookies</td>
+<td title="Message">CookieSpec selected: best-match</td>
+</tr>
+
+<tr>
+<td>354</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAuthCache category">ytx.org.apache.http.client.protocol.RequestAuthCache</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>355</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestProxyAuthentication category">ytx.org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>355</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>355</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Sending request: POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=5CA6B7288715C4B7B14DE82A6553A27A HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>355</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=5CA6B7288715C4B7B14DE82A6553A27A HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Accept: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Type: application/json;charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEyMDM=[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Length: 103[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Host: app.cloopen.com:8883[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>356</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=5CA6B7288715C4B7B14DE82A6553A27A HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Accept: application/json</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Type: application/json;charset=utf-8</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEyMDM=</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Length: 103</td>
+</tr>
+
+<tr>
+<td>357</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Host: app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>358</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>358</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)</td>
+</tr>
+
+<tr>
+<td>358</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;{&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}&quot;</td>
+</tr>
+
+<tr>
+<td>422</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;HTTP/1.1 200 [\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Server: nginx/1.14.0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Date: Sat, 21 Sep 2019 04:12:04 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Type: application/json;charset=UTF-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Length: 65[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>423</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Receiving response: HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Server: nginx/1.14.0</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Date: Sat, 21 Sep 2019 04:12:04 GMT</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Type: application/json;charset=UTF-8</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Length: 65</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>428</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;{&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;[0xe3][0x80][0x90][0xe8][0xb4][0xa6][0xe5][0x8f][0xb7][0xe3][0x80][0x91][0xe5][0xba][0x94][0xe7][0x94][0xa8][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td>428</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Releasing connection ytx.org.apache.http.impl.conn.ManagedClientConnectionImpl@341b80b2</td>
+</tr>
+
+<tr>
+<td>428</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>429</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Connection 0.0.0.0:10747&lt;-&gt;42.121.254.126:8883 closed</td>
+</tr>
+
+<tr>
+<td>429</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:04 GMT+08:00 2019 sendTemplateSMS response body = {&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;【账号】应用不存在&quot;}</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Sep 21 12:12:49 GMT+08:00 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:51 GMT+08:00 2019 sendTemplateSMS url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=546842D4684CFBDB1844B2440447FE55</td>
+</tr>
+
+<tr>
+<td>43</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:51 GMT+08:00 2019 sendTemplateSMS Request body =  {&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}</td>
+</tr>
+
+<tr>
+<td>75</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Get connection for route {s}-&gt;https://app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>101</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator category">ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td title="Message">Connecting to app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>362</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAddCookies category">ytx.org.apache.http.client.protocol.RequestAddCookies</td>
+<td title="Message">CookieSpec selected: best-match</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAuthCache category">ytx.org.apache.http.client.protocol.RequestAuthCache</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestProxyAuthentication category">ytx.org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>368</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Sending request: POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=546842D4684CFBDB1844B2440447FE55 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=546842D4684CFBDB1844B2440447FE55 HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Accept: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Type: application/json;charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEyNTE=[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Length: 103[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Host: app.cloopen.com:8883[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>370</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=546842D4684CFBDB1844B2440447FE55 HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Accept: application/json</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Type: application/json;charset=utf-8</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjEyNTE=</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Length: 103</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Host: app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)</td>
+</tr>
+
+<tr>
+<td>372</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;{&quot;appId&quot;:&quot;\n8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}&quot;</td>
+</tr>
+
+<tr>
+<td>453</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;HTTP/1.1 200 [\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Server: nginx/1.14.0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Date: Sat, 21 Sep 2019 04:12:51 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Type: application/json;charset=UTF-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Length: 65[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>454</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Receiving response: HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Server: nginx/1.14.0</td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Date: Sat, 21 Sep 2019 04:12:51 GMT</td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Type: application/json;charset=UTF-8</td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Length: 65</td>
+</tr>
+
+<tr>
+<td>455</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>456</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>458</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;{&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;[0xe3][0x80][0x90][0xe8][0xb4][0xa6][0xe5][0x8f][0xb7][0xe3][0x80][0x91][0xe5][0xba][0x94][0xe7][0x94][0xa8][0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8]&quot;}&quot;</td>
+</tr>
+
+<tr>
+<td>458</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Releasing connection ytx.org.apache.http.impl.conn.ManagedClientConnectionImpl@341b80b2</td>
+</tr>
+
+<tr>
+<td>459</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>459</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Connection 0.0.0.0:10767&lt;-&gt;42.121.254.126:8883 closed</td>
+</tr>
+
+<tr>
+<td>459</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:12:51 GMT+08:00 2019 sendTemplateSMS response body = {&quot;statusCode&quot;:&quot;111181&quot;,&quot;statusMsg&quot;:&quot;【账号】应用不存在&quot;}</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sat Sep 21 12:17:09 GMT+08:00 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:17:10 GMT+08:00 2019 sendTemplateSMS url = https://app.cloopen.com:8883/2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=B15812EDFC0749D4D41C0FA69565E76A</td>
+</tr>
+
+<tr>
+<td>40</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:17:11 GMT+08:00 2019 sendTemplateSMS Request body =  {&quot;appId&quot;:&quot;8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}</td>
+</tr>
+
+<tr>
+<td>72</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Get connection for route {s}-&gt;https://app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>101</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator category">ytx.org.apache.http.impl.conn.DefaultClientConnectionOperator</td>
+<td title="Message">Connecting to app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>340</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAddCookies category">ytx.org.apache.http.client.protocol.RequestAddCookies</td>
+<td title="Message">CookieSpec selected: best-match</td>
+</tr>
+
+<tr>
+<td>346</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestAuthCache category">ytx.org.apache.http.client.protocol.RequestAuthCache</td>
+<td title="Message">Auth cache not set in the context</td>
+</tr>
+
+<tr>
+<td>346</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.client.protocol.RequestProxyAuthentication category">ytx.org.apache.http.client.protocol.RequestProxyAuthentication</td>
+<td title="Message">Proxy auth state: UNCHALLENGED</td>
+</tr>
+
+<tr>
+<td>346</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Attempt 1 to execute request</td>
+</tr>
+
+<tr>
+<td>346</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Sending request: POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=B15812EDFC0749D4D41C0FA69565E76A HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>347</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=B15812EDFC0749D4D41C0FA69565E76A HTTP/1.1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>347</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Accept: application/json[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>347</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Type: application/json;charset=utf-8[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>347</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjE3MTA=[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>348</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Content-Length: 101[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>348</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Host: app.cloopen.com:8883[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>348</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>348</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; POST /2013-12-26/Accounts/8a216da86cdb6950016cf17dd55f0c9e/SMS/TemplateSMS?sig=B15812EDFC0749D4D41C0FA69565E76A HTTP/1.1</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Accept: application/json</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Type: application/json;charset=utf-8</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Authorization: OGEyMTZkYTg2Y2RiNjk1MDAxNmNmMTdkZDU1ZjBjOWU6MjAxOTA5MjExMjE3MTA=</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Content-Length: 101</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Host: app.cloopen.com:8883</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; Connection: Keep-Alive</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&gt;&gt; User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.5)</td>
+</tr>
+
+<tr>
+<td>349</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&gt;&gt; &quot;{&quot;appId&quot;:&quot;8a216da86cdb6950016cf17dd5af0ca5&quot;,&quot;to&quot;:&quot;18245369460&quot;,&quot;templateId&quot;:&quot;1&quot;,&quot;datas&quot;:[&quot;1234&quot;,&quot;1&quot;]}&quot;</td>
+</tr>
+
+<tr>
+<td>418</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;HTTP/1.1 200 [\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Server: nginx/1.14.0[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Date: Sat, 21 Sep 2019 04:17:11 GMT[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Type: application/json;charset=ISO-8859-1[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>419</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Content-Length: 121[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;[\r][\n]&quot;</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Receiving response: HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; HTTP/1.1 200 </td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Server: nginx/1.14.0</td>
+</tr>
+
+<tr>
+<td>420</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Date: Sat, 21 Sep 2019 04:17:11 GMT</td>
+</tr>
+
+<tr>
+<td>421</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Type: application/json;charset=ISO-8859-1</td>
+</tr>
+
+<tr>
+<td>421</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Content-Length: 121</td>
+</tr>
+
+<tr>
+<td>421</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.headers category">org.apache.http.headers</td>
+<td title="Message">&lt;&lt; Connection: keep-alive</td>
+</tr>
+
+<tr>
+<td>422</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.client.DefaultHttpClient category">ytx.org.apache.http.impl.client.DefaultHttpClient</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>424</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.apache.http.wire category">org.apache.http.wire</td>
+<td title="Message">&lt;&lt; &quot;{&quot;statusCode&quot;:&quot;000000&quot;,&quot;templateSMS&quot;:{&quot;smsMessageSid&quot;:&quot;74ed7f37268b4e8097b7bc574915bf0d&quot;,&quot;dateCreated&quot;:&quot;20190921121711&quot;}}&quot;</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Releasing connection ytx.org.apache.http.impl.conn.ManagedClientConnectionImpl@341b80b2</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.BasicClientConnectionManager category">ytx.org.apache.http.impl.conn.BasicClientConnectionManager</td>
+<td title="Message">Connection can be kept alive indefinitely</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="ytx.org.apache.http.impl.conn.DefaultClientConnection category">ytx.org.apache.http.impl.conn.DefaultClientConnection</td>
+<td title="Message">Connection 0.0.0.0:10875&lt;-&gt;42.121.254.126:8883 closed</td>
+</tr>
+
+<tr>
+<td>425</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cloopen.rest.sdk.CCPRestSmsSDK category">com.cloopen.rest.sdk.CCPRestSmsSDK</td>
+<td title="Message">Sat Sep 21 12:17:11 GMT+08:00 2019 sendTemplateSMS response body = {&quot;statusCode&quot;:&quot;000000&quot;,&quot;templateSMS&quot;:{&quot;smsMessageSid&quot;:&quot;74ed7f37268b4e8097b7bc574915bf0d&quot;,&quot;dateCreated&quot;:&quot;20190921121711&quot;}}</td>
+</tr>
